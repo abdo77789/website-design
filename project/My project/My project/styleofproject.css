@@ -1,0 +1,168 @@
+body{
+  background-image: url("hand-drawn-colorful-science-education-wallpaper_23-2148489183.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.top-view{
+    text-align: center;
+    font-size: 90px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+  }
+  .cont1{
+    width: fit-content;
+     width: 300px;
+     margin: 0px 50px 50px 80px;
+     border: 5px solid rgb(0, 60, 189);
+     border-radius: 10px;
+     padding-bottom: 60px;
+   }
+  .cont2{
+    width: fit-content;
+     width: 300px;
+     margin: 0px 50px 50px 80px;
+     border: 5px solid rgb(0, 60, 189);
+     border-radius: 10px;
+     padding-bottom: 80px;
+   }
+  .cont3{
+    width: fit-content;
+     width: 300px;
+     margin: 0px 50px 50px 80px;
+     border: 5px solid rgb(0, 60, 189);
+     border-radius: 10px;
+     padding-bottom: 30px;
+   }
+  .cont4{
+    width: fit-content;
+     width: 300px;
+     margin: 0px 50px 50px 80px;
+     border: 5px solid rgb(0, 60, 189);
+     border-radius: 10px;
+   }
+  .cont5{
+    width: fit-content;
+     width: 300px;
+     margin: 0px 50px 50px 80px;
+     border: 5px solid rgb(0, 60, 189);
+     border-radius: 10px;
+   }
+  .cont6{
+    width: fit-content;
+     width: 300px;
+     margin: 0px 50px 50px 80px;
+     border: 5px solid rgb(0, 60, 189);
+     border-radius: 10px;
+     padding-bottom: 110px;
+   }
+   p{
+    width: 280px;
+   }
+   h1{
+    margin: 20px;
+    padding: 20px;
+   }
+   .card{
+    padding:15px;
+    border-radius: 12px;
+    width: 300px;
+   
+  }
+  .card img{
+    align-items: center;
+    margin-left: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 250px;
+    display:inline-block;
+  
+  }
+  .card img:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.btn{
+    margin-left: 30px;
+    background-color: transparent;
+    padding: 10px;
+    width: 120px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.btn:hover{
+    color:rgb(61, 95, 66);
+   
+  }
+  .brief1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+  }
+  .author1{
+    width: 300px;
+  }
+  h1{
+    width: 300px;
+    margin: auto;
+  }
+  .main-div{
+    display: flex;
+    justify-items: center;
+  }
+  .checked {
+    color: orange;
+  }
+/*nav bar*/
+.nav{
+  
+  width: 100%;
+  background-image: radial-gradient(grey,white);
+  height: 80px;
+}
+ul{
+
+list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+.nav img {
+opacity: 0.9;
+margin-left: 140px;
+}
+ul li{
+margin-left: 50px;
+text-decoration: none;
+list-style: none;
+  float: left;
+  margin-top: 20px;
+}
+ul li a{
+  width: 150px;
+  color: aliceblue;
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+a:hover{
+  background-color: #e1ebce;
+}
+ul li ul{
+  background-image: radial-gradient(grey,white);
+  display: none;
+  text-decoration: none;
+}
+ul li ul li{
+  float: none;
+  text-decoration: none;
+}
+ul li:hover ul{
+  display: block;}
+/*nav bar*/
+

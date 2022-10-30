@@ -1,0 +1,56 @@
+body{
+    background-image: url("team.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+img{
+        width: 300px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.me{
+    margin-left: 480px;
+}
+.nour{
+    margin-left: 500px;
+}
+.youssef{
+    margin-left: 200px;
+}
+.abd{
+    margin-left: 200px;
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+h3{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+h4{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin-left: 50px;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin-left: 70px;
+}
+h6{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    
+}

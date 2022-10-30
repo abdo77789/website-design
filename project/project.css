@@ -1,0 +1,218 @@
+body{
+  background-image: url("books 3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+    margin: 0;
+    padding: 0%;
+} /*nav bar */
+.nav{
+  
+    width: 100%;
+   background-image: radial-gradient(grey,white);
+    height: 80px;
+}
+ul{
+  
+  list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+.nav img {
+  opacity: 0.9;
+  float: right;
+}
+ul li{
+  margin-left: 50px;
+  text-decoration: none;
+  list-style: none;
+    float: left;
+    margin-top: 20px;
+}
+ul li a{
+    width: 150px;
+    color: aliceblue;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: #e1ebce;
+}
+ul li ul{
+  background-image: radial-gradient(grey,white);
+    display: none;
+    text-decoration: none;
+    width: fit-content;
+}
+ul li ul li{
+    float: none;
+    text-decoration: none;
+}
+ul li:hover ul{
+    display: block;
+}/*  end nav bar */
+/*slide image*/
+.slide{
+    display: inline-block;
+    margin-left: 100px;
+    width: 300px;
+    overflow: hidden;
+    object-position: right;
+}
+.slide h1{
+ text-align: left;
+}
+.slide ul{
+    padding: 0%;
+    width: 2800px;
+    list-style: none;
+    position: relative;
+    animation: sliding 5s ease-in-out infinite
+}
+.slide ul li {
+    float: left;
+    position: relative;
+}
+@keyframes sliding
+{  
+    0%{left: 0;}
+    30%{left: -300;}
+    50%{left: -600;}
+    70%{left: -900;}
+    90%{left: -1200;}
+ }
+ /*end image slider*/
+/*font top*/
+.one{
+  display: inline-block;
+  margin-left: 500px;
+  font-size: 80px;
+  color: rgb(20, 209, 130);
+}
+.two{
+  display: inline-block;
+  font-size: 70px;
+  color: aqua;
+}
+.three{
+  display: inline-block;
+  font-size: 75px;
+  color: rgb(10, 92, 58);
+}
+.four{
+  display: inline-block;
+  font-size: 90px;
+  color: rgb(54, 224, 63);
+}
+.first-topic{
+  text-align: center;
+  color: grey;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.top-view{
+  text-align: center;
+  font-size: 90px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+}
+.top-sales{
+  text-align: center;
+  font-size: 90px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+}
+.recent{
+  text-align: center;
+  font-size: 90px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+}
+/*font top*/
+/*bboks show */
+.cont{
+ width: fit-content;
+  margin: 0 auto;
+ 
+}
+.card h3{
+  font-size: 30px;
+}
+.card{
+  display: flex;
+  align-items: center;
+  padding:15px;
+  border-radius: 12px;
+ 
+}
+.card img{
+  width: 300px;
+  border-radius: 12px;
+  height: 250px;
+
+}
+
+.card img:hover{
+  opacity: 0.9;
+  cursor: pointer;}
+
+.btn{
+margin-left: 30px;
+background-color: transparent;
+padding: 10px;
+width: 120px;
+border-radius: 7px;
+cursor: pointer;
+transition: 0.4s ease;
+}
+
+.btn:hover{
+  color:rgb(61, 95, 66);
+ 
+}
+.main-book{
+  background-image: url("books 2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+}
+.name{
+  margin-left: 40px;
+  font-size: 40px;
+}
+.name p{
+  font-size: 20px;
+}
+/*bboks show */
+.ss{
+  display: flex;
+  align-items: center;
+  
+}
+.checked {
+  font-size: 10px;
+  color: orange;}
+.write{
+  margin-left: 100px;
+  margin-bottom: 200px;
+}
+.write h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  color: greenyellow;
+}
+.write p{
+  font-size: 20px;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: antiquewhite;
+}

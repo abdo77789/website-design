@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0%;
+ 
+
+} /*nav bar */
+.nav{
+     width: 100%;
+    background-image:linear-gradient(rgb(164, 202, 180),white);
+    height: 80px;
+}
+ul{
+  
+  list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+ }
+ 
+.logo_img{
+  margin-left: 350px;
+}
+.nav img {
+  opacity: 0.9;
+  float: right;
+}
+ul li{
+  margin-left: 50px;
+  text-decoration: none;
+  list-style: none;
+    float: left;
+    margin-top: 20px;
+}
+ul li a{
+    width: 150px;
+    color: aliceblue;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: #e1ebce;
+}
+ul li ul{
+  background-image:linear-gradient(rgb(164, 202, 180),white);
+    display: none;
+    text-decoration: none;
+}
+ul li ul li{
+    float: none;
+    text-decoration: none;
+}
+ul li:hover ul{
+    display: block;
+}/*  end nav bar */
+/*slide image*/
+.ss{
+    display: inline-block;
+    margin-left: 500px;
+    width: 400px;
+    overflow: hidden;
+    object-position: right;
+ 
+
+}
+.ss h1{
+ text-align: left;
+}
+.ss ul{
+    padding: 0%;
+    width: 1600px;
+    list-style: none;
+    position: relative;
+    animation: sliding 5s ease-in-out infinite
+}
+.ss ul li {
+    float: left;
+    position: relative;
+}
+@keyframes sliding
+{  
+    0%{left: 0;}
+    30%{left: -300;}
+    50%{left: -600;}
+    70%{left: -900;}
+    90%{left: -1200;}
+ }
+ /*end image slider*/
+/*font top*/
+.one{
+  display: inline-block;
+  margin-left: 500px;
+  font-size: 80px;
+  color: yellow;
+}
+.two{
+  display: inline-block;
+  font-size: 70px;
+  color: aqua;
+}
+.three{
+  display: inline-block;
+  font-size: 75px;
+  color: red;
+}
+.four{
+  display: inline-block;
+  font-size: 90px;
+  color: blue;
+}
+.first-topic{
+  text-align: center;
+  color: grey;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.top-view{
+  text-align: center;
+  font-size: 90px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+}
+.top-sales{
+  text-align: center;
+  font-size: 90px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+}
+ 
+/*font top*/
+/*bboks show */
+.cont{
+ width: fit-content;
+  margin: 0 auto;
+ 
+}
+
+.card{
+  padding:15px;
+  border-radius: 12px;
+ 
+}
+.card img{
+  width: 250px;
+  border-radius: 12px;
+  height: 300px;
+
+}
+
+.card img:hover{
+  opacity: 0.9;
+  cursor: pointer;}
+
+.btn{
+  
+margin-left:50px;
+background-color: transparent;
+padding: 10px;
+width: 120px;
+border-radius: 7px;
+cursor: pointer;
+transition: 0.4s ease;
+}
+
+.btn:hover{
+  color:rgb(61, 95, 66);
+ 
+}
+.main-book{
+  background-image:url(back_n.jpg);
+  display: flex;
+  align-items: center;
+}
+.name{
+  margin-left: 40px;
+  font-size: 40px;
+}
+.name p{
+  font-size: 20px;
+}
+/*bboks show */
