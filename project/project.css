@@ -1,5 +1,5 @@
 body{
-  background-image: url("books 3.jpg");
+  background-image: url("books\ 3.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -112,7 +112,7 @@ ul li:hover ul{
 }
 .first-topic{
   text-align: center;
-  color: grey;
+  color:black;
   font-size: 40px;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -152,7 +152,8 @@ ul li:hover ul{
  
 }
 .card img{
-  width: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 12px;
   height: 250px;
 
@@ -196,7 +197,11 @@ transition: 0.4s ease;
 .ss{
   display: flex;
   align-items: center;
-  
+  margin-left: 40px;
+  width: fit-content;
+}
+.main-book{
+  width: 1200px;
 }
 .checked {
   font-size: 10px;
@@ -208,11 +213,11 @@ transition: 0.4s ease;
 .write h1{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-transform: uppercase;
-  color: greenyellow;
+  color:black
 }
 .write p{
   font-size: 20px;
   font-style: italic;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: antiquewhite;
+  color:black
 }
